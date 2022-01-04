@@ -14,6 +14,19 @@ class LoginViewController: UIViewController {
         title = "Log In"
         view.backgroundColor = .white
         
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Register",
+                                                            style: .done,
+                                                            target: self,
+                                                            action: #selector(didTapRegister))
+        
     }
-    
+ 
+    @objc private func didTapRegister(){
+        let vc = RegisterViewController()
+        vc.title = "Create Accoount"
+        navigationController?.pushViewController(vc, animated: true)
+        
+    }
+                                                            
+                                                            
 }

@@ -14,7 +14,10 @@ class ConversationsViewController: UIViewController {
         let isLoggedIn = UserDefaults.standard.bool(forKey: "logged_in")
         
         if !isLoggedIn{
-            let vc = LoginViewController
+            let vc = LoginViewController()
+            let nav = UINavigationController(rootViewController: vc)
+            nav.modalPresentationStyle = .fullScreen
+            present(nav, animated: true)
         }
     }
 

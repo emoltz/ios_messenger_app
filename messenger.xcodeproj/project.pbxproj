@@ -49,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71CC559D27849F8300EED771 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				71E00217278351FD0069019A /* LoginViewController.swift */,
+				71E002192783520C0069019A /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		71E001F127834F550069019A = {
 			isa = PBXGroup;
 			children = (
@@ -82,8 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				71E0020127834F550069019A /* ConversationsViewController.swift */,
-				71E00217278351FD0069019A /* LoginViewController.swift */,
-				71E002192783520C0069019A /* RegisterViewController.swift */,
+				71CC559D27849F8300EED771 /* Login */,
 				71E0021B278352290069019A /* PhotoViewerViewController.swift */,
 				71E0021D278352310069019A /* VideoPlayerViewController.swift */,
 				71E0021F278352500069019A /* NewConversationViewController.swift */,

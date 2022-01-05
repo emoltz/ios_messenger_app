@@ -26,6 +26,17 @@ class LoginViewController: UIViewController {
                                                             target: self,
                                                             action: #selector(didTapRegister))
         
+        // add subviews
+        
+        view.addSubview(imageView)
+        
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews();
+        let size = view.frame.size.width / 3
+        
+        imageView.frame = CGRect(x: view.frame.size.width - size, y: 20, width: size, height: size)
     }
  
     @objc private func didTapRegister(){

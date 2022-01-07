@@ -35,8 +35,11 @@ class LoginViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews();
         let size = view.frame.size.width / 3
+        let midX = imageView.frame.midX
+        // TODO: find mid of frame?
         
-        imageView.frame = CGRect(x: view.frame.size.width - size, y: 20, width: size, height: size)
+        imageView.frame = CGRect(x: midX, y: 100, width: size, height: size)
+        
     }
  
     @objc private func didTapRegister(){

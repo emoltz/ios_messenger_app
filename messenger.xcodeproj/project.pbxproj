@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		717D38E92788DED50063A052 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717D38E82788DED50063A052 /* Extensions.swift */; };
 		71CC559F2784A5BB00EED771 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 71CC559E2784A5BB00EED771 /* README.md */; };
 		71E001FE27834F550069019A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E001FD27834F550069019A /* AppDelegate.swift */; };
 		71E0020027834F550069019A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E001FF27834F550069019A /* SceneDelegate.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		717D38E82788DED50063A052 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		71CC559E2784A5BB00EED771 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		71E001FA27834F550069019A /* messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E001FD27834F550069019A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			children = (
 				71E001FD27834F550069019A /* AppDelegate.swift */,
 				71E001FF27834F550069019A /* SceneDelegate.swift */,
+				717D38E82788DED50063A052 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				71E00220278352500069019A /* NewConversationViewController.swift in Sources */,
 				71E0020227834F550069019A /* ConversationsViewController.swift in Sources */,
 				71E0021E278352310069019A /* VideoPlayerViewController.swift in Sources */,
+				717D38E92788DED50063A052 /* Extensions.swift in Sources */,
 				71E001FE27834F550069019A /* AppDelegate.swift in Sources */,
 				71E00222278352630069019A /* ProfileViewController.swift in Sources */,
 				71E0020027834F550069019A /* SceneDelegate.swift in Sources */,
